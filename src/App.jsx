@@ -14,7 +14,7 @@ import ProductsByApplicationPage from "@/pages/ProductsByApplicationPage";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 
 const App = () => {
-   const repoName = "https://hammod-m.github.io/shenling1";
+   const repoName = "/shenling1/";
    return (
       <HelmetProvider>
          <Router basename={repoName}>
