@@ -183,7 +183,7 @@ logger.error = (msg, options) => {
 
 export default defineConfig({
    customLogger: logger,
-   base: "https://Hammod-M.github.io/shenling1",
+   base: "/shenling1/",
    plugins: [react(), addTransformIndexHtml],
    server: {
       cors: true,
